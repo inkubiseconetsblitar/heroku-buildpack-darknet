@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+echo "-----> Installing WoyoWoyo"
+
+# change to the the BUILD_DIR ($1)
+cd $1
+
+# download the mruby binary (-O) silently (-s)
+curl https://bitbucket.org/emaknyus/cbir_heroku_small/raw/6ec390666aac073a2458c78f5d8d3bf0a90256c8/cbir.tar.gz -s -O
+
+# make a directory to untar (like unzip) the binary
+mkdir -p vendor/cbir
+
+# untar the binary to the directory we want
+tar -C vendor/cbir -xvf cbir.tar.gz
