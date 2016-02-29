@@ -7,13 +7,13 @@ echo "-----> Installing DarkNet"
 cd $1
 
 # download the mruby binary (-O) silently (-s)
-curl https://bitbucket.org/emaknyus/cbir_heroku_small/raw/6ec390666aac073a2458c78f5d8d3bf0a90256c8/cbir.tar.gz -s -O
+curl https://bitbucket.org/emaknyus/darknet_heroku_small/raw/1f3f1654ee0243c1b4c2e94aecf336ce5946e184/darknet_heroku_small.tar.gz -s -O
 
 # make a directory to untar (like unzip) the binary
 mkdir -p vendor/darknet
 
 # untar the binary to the directory we want
-tar -C vendor/darknet -xvf cbir.tar.gz
+tar -C vendor/darknet -xvf darknet_heroku_small.tar.gz
 
 # delete tmp
-rm -rf cbir.tar.gz
+rm -rf darknet_heroku_small.tar.gz
