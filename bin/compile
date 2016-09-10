@@ -8,7 +8,7 @@ cd $1
 
 # download the binary (-O) silently (-s)
 # curl https://bitbucket.org/emaknyus/darknet_heroku_small/raw/1f3f1654ee0243c1b4c2e94aecf336ce5946e184/darknet_heroku_small.tar.gz -s -O
-curl https://bitbucket.org/emaknyus/cbir_heroku_8_sep_16/raw/65e680a487199acdc79bff528998811bfe4eeec4/cbir-heroku-8-sep-16.tar.gz -s -O
+curl https://bitbucket.org/emaknyus/cbir_heroku_8_sep_16/raw/e6fa4bb4b420a06b482686eabae0f989b585a31f/cbir-heroku-8-sep-16.tar.gz -s -O
 
 # make a directory to untar (like unzip) the binary
 mkdir -p vendor/darknet
