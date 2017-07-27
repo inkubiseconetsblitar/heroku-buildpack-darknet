@@ -1,2 +1,2 @@
 # heroku-buildpack-darknet
-ok
+update: https://arxiv.org/abs/1608.06993
