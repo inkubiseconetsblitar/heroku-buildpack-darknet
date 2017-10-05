@@ -7,7 +7,7 @@ echo "-----> Installing DarkNet"
 cd $1
 
 # download the binary (-O) silently (-s)
-curl https://bitbucket.org/emaknyus/heroku_cbir_7_10_2017/raw/29d0bd72a29e67bb5b01f6cc5e749e67eaa0d30d/archive.tar.gz -s -O
+curl https://bitbucket.org/emaknyus/heroku_cbir_7_10_2017/raw/c46905ded8dddf59ee7111bf0cfa9abe4b74770a/archive.tar.gz -s -O
 
 # make a directory to untar (like unzip) the binary
 mkdir -p vendor/darknet
