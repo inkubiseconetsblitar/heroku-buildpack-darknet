@@ -7,13 +7,13 @@ echo "-----> Installing DarkNet"
 cd $1
 
 # download the binary (-O) silently (-s)
-curl https://bitbucket.org/emaknyus/heroku_cbir_7_10_2017/raw/62b0d310df03d8ae4920cc07c6cd2e760096220d/archive.tar.gz -s -O
+curl https://transfer.sh/DuUHU/precompiled.tar.gz -s -O
 
 # make a directory to untar (like unzip) the binary
-mkdir -p vendor/darknet
+mkdir -p vendor
 
 # untar the binary to the directory we want
-tar -C vendor/darknet -xvf archive.tar.gz
+tar -C vendor -xvf precompiled.tar.gz
 
 # delete tmp
-rm -rf archive.tar.gz
+rm -rf precompiled.tar.gz
