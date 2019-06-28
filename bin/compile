@@ -10,10 +10,10 @@ cd $1
 curl https://transfer.sh/DuUHU/precompiled.tar.gz -s -O
 
 # make a directory to untar (like unzip) the binary
-mkdir -p vendor
+mkdir -p vendor/darknet
 
 # untar the binary to the directory we want
-tar -C vendor -xvf precompiled.tar.gz
+tar -C vendor/darknet -xvf precompiled.tar.gz
 
 # delete tmp
 rm -rf precompiled.tar.gz
