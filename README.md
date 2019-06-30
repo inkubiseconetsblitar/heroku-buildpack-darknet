@@ -1,2 +1,4 @@
 # heroku-buildpack-darknet
-update: https://arxiv.org/abs/1608.06993
+Darknet untuk layanan PaaS Heroku. File precompile ini menggunakan model densenet 201.
+
+https://pjreddie.com/darknet/imagenet/
